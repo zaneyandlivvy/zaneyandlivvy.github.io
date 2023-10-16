@@ -1,0 +1,147 @@
+[
+	{
+	  "question": "When was the first time you wanted to sleep over in my room?",
+	  "choices": [
+		{"text": "Halloween 2020", "isCorrect": true},
+		{"text": "Lobster Bake 2021", "isCorrect": false},
+		{"text": "Last night", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Where did you sit in my car in South Portland driving to the ocean in Spring 2021?",
+	  "choices": [
+		{"text": "Shotgun", "isCorrect": true},
+		{"text": "Way-back", "isCorrect": false},
+		{"text": "Roof (lit)", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Is the Blair Witch project scary?",
+	  "choices": [
+		{"text": "Hell no", "isCorrect": true},
+		{"text": "We haven't slept since", "isCorrect": false},
+		{"text": "Don't know, I was making out with you the entire time.", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Which body part of mine is shockingly short?",
+	  "choices": [
+		{"text": "Tongue", "isCorrect": true},
+		{"text": "...", "isCorrect": false},
+		{"text": "Left pinkie toe", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "What did I say in the early morning hours of November 13th, 2021?",
+	  "choices": [
+		{"text": "“Can I be your boyfriend, like, officially or whatever?”", "isCorrect": true},
+		{"text": "I love you", "isCorrect": false},
+		{"text": "Did you just fart???", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "As of when we started dating, what did you think the word alfalfa meant?",
+	  "choices": [
+		{"text": "A furry farm animal", "isCorrect": true},
+		{"text": "A leguminous plant with clover-like leaves and bluish flowers, native to southwestern Asia and widely grown for fodder.", "isCorrect": false},
+		{"text": "A psychadelic drug grown in Argentina", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "What two games did we combine and play with Lauren and Lucy?",
+	  "choices": [
+		{"text": "Cards against humanity and charades", "isCorrect": true},
+		{"text": "Volleyball and Golf", "isCorrect": false},
+		{"text": "Gymnastics and Skydiving", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "At which party that I hosted did the fire alarm go off?",
+	  "choices": [
+		{"text": "One Laddst Night", "isCorrect": true},
+		{"text": "The party in my pants", "isCorrect": false},
+		{"text": "Slutty Fisherman", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "What is the company that acquired Datto called?",
+	  "choices": [
+		{"text": "Kaseya", "isCorrect": true},
+		{"text": "Kasiya", "isCorrect": false},
+		{"text": "Kasoya", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Why did you scare the shit out of me by not responding while staying at your condo in Philly over the summer?",
+	  "choices": [
+		{"text": "Phone didn't charge", "isCorrect": true},
+		{"text": "You met another man", "isCorrect": false},
+		{"text": "Thought it would be funny", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Do we like long distance?",
+	  "choices": [
+		{"text": "Nope", "isCorrect": true},
+		{"text": "Yeah, kinda", "isCorrect": false},
+		{"text": "Yes, we wish we weren't together right now", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Where is my shot glass from?",
+	  "choices": [
+		{"text": "Bahamas", "isCorrect": true},
+		{"text": "Turks and Caicos", "isCorrect": false},
+		{"text": "Aruba", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Whose house do we go to for New Years?",
+	  "choices": [
+		{"text": "Lucy's dad", "isCorrect": true},
+		{"text": "Lucy's mom", "isCorrect": false},
+		{"text": "Rahul", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Possibly my favorite outfit of yours?",
+	  "choices": [
+		{"text": "Pink t-shirt and half leather pants", "isCorrect": true},
+		{"text": "White crop top and jeans", "isCorrect": true},
+		{"text": "Sleeveless workout top and yoga pants", "isCorrect": true}
+	  ]
+	},
+	{
+	  "question": "Pick the incorrect line:",
+	  "choices": [
+		{"text": "“Any man dies with a clean sword and I'll rape his fucking corpse.”", "isCorrect": false},
+		{"text": "“Not me, not Ron, you.” (said with an aggressive British accent)", "isCorrect": true},
+		{"text": "“I get a clock radio, he cannot afford. Great success.”", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Who do you like slapping?",
+	  "choices": [
+		{"text": "Slamwich muncher number 2", "isCorrect": true},
+		{"text": "Kasen when he's annoying", "isCorrect": false},
+		{"text": "Football moms when they cheer for their meathead sons", "isCorrect": true}
+	  ]
+	},
+	{
+	  "question": "A translation of my Italian at dinner in Siena:",
+	  "choices": [
+		{"text": "“Good morning, I rigatoni”", "isCorrect": true},
+		{"text": "“Hello, may I please have the rigatoni“", "isCorrect": false},
+		{"text": "“Whaddup bitch give me some pasta“", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "The closest we've ever been to a car accident",
+	  "choices": [
+		{"text": "Arc de Triomphe roundabout", "isCorrect": true},
+		{"text": "Any time Liv drives", "isCorrect": false},
+		{"text": "When we raced F1 cars in Monaco", "isCorrect": false}
+	  ]
+	}
+]
+  
