@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
   text-align: center;
   background-color: lightblue;
@@ -11,7 +10,7 @@
 
 h1 {
   font-size: 2rem;
-  color: #007bff; /* Blue color */
+  color: #0f6197; /* Blue color */
 }
 
 .Question {
@@ -51,4 +50,9 @@ li:hover {
   width: 800px;
   font-size: 17px;
   line-height: 1.5;
+  color: #0f6197;
+}
+
+.site-title {
+  padding-top: 30px;
 }
