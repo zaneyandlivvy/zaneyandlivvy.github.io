@@ -1,5 +1,13 @@
 [
 	{
+	  "question": "What's your favorite picture of us?",
+	  "choices": [
+		{"text": "You with your arms around me at the dinner table in Aspen", "isCorrect": true},
+		{"text": "Our first picture (by the football field at night)", "isCorrect": true},
+		{"text": "Us with our arms around each other at Brunswick GC after your tournament", "isCorrect": true}
+	  ]
+	},
+	{
 	  "question": "When was the first time you wanted to sleep over in my room?",
 	  "choices": [
 		{"text": "Halloween 2020", "isCorrect": true},
@@ -64,11 +72,13 @@
 	  ]
 	},
 	{
-	  "question": "What is the company that acquired Datto called?",
+	  "question": "What is the company that acquired Datto called? (Google is allowed)",
 	  "choices": [
 		{"text": "Kaseya", "isCorrect": true},
 		{"text": "Kasiya", "isCorrect": false},
-		{"text": "Kasoya", "isCorrect": false}
+		{"text": "Kasoya", "isCorrect": false},
+		{"text": "Kasaya", "isCorrect": false},
+		{"text": "Kasya", "isCorrect": false}
 	  ]
 	},
 	{
@@ -100,7 +110,8 @@
 	  "choices": [
 		{"text": "Lucy's dad", "isCorrect": true},
 		{"text": "Lucy's mom", "isCorrect": false},
-		{"text": "Rahul", "isCorrect": false}
+		{"text": "Rahul", "isCorrect": false},
+		{"text": "Your mom's (got 'em)", "isCorrect": false}
 	  ]
 	},
 	{
@@ -112,11 +123,16 @@
 	  ]
 	},
 	{
-	  "question": "Pick the incorrect line:",
+	  "question": "Pick the incorrect line. BE CAREFUL HERE",
 	  "choices": [
 		{"text": "“Any man dies with a clean sword and I'll rape his fucking corpse.”", "isCorrect": false},
 		{"text": "“Not me, not Ron, you.” (said with an aggressive British accent)", "isCorrect": true},
-		{"text": "“I get a clock radio, he cannot afford. Great success.”", "isCorrect": false}
+		{"text": "“I get a clock radio, he cannot afford. Great success.”", "isCorrect": false},
+		{"text": "“Whoopsedaises!” (said while attempting to climb a fence)", "isCorrect": false},
+		{"text": "“I LOVE MILFS! Like that one right there! Look at all that ass! Hey man, can you handle all that ass!!”", "isCorrect": false},
+		{"text": "“I'm a feather… I'll go where the wind blows”", "isCorrect": false},
+		{"text": "“What's even the problem with incest?”", "isCorrect": false},
+		{"text": "“Look at alllll those lemons!”", "isCorrect": false}
 	  ]
 	},
 	{
@@ -124,7 +140,9 @@
 	  "choices": [
 		{"text": "Slamwich muncher number 2", "isCorrect": true},
 		{"text": "Kasen when he's annoying", "isCorrect": false},
-		{"text": "Football moms when they cheer for their meathead sons", "isCorrect": true}
+		{"text": "Football moms when they cheer for their meathead sons", "isCorrect": true},
+		{"text": "Your dad when he's annoying", "isCorrect": false},
+		{"text": "Your mom when she's annoying", "isCorrect": false}
 	  ]
 	},
 	{
@@ -139,8 +157,61 @@
 	  "question": "The closest we've ever been to a car accident",
 	  "choices": [
 		{"text": "Arc de Triomphe roundabout", "isCorrect": true},
-		{"text": "Any time Liv drives", "isCorrect": false},
+		{"text": "Any time Liv drives over 75mph", "isCorrect": false},
 		{"text": "When we raced F1 cars in Monaco", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "What have I been obsessed with lately?",
+	  "choices": [
+		{"text": "Guiness", "isCorrect": true},
+		{"text": "High Noons", "isCorrect": false},
+		{"text": "This random girl named Olivia", "isCorrect": true}
+	  ]
+	},
+	{
+	  "question": "Best burrito in the world?",
+	  "choices": [
+		{"text": "Tango Mango", "isCorrect": true},
+		{"text": "Bolocco (yum)", "isCorrect": false},
+		{"text": "That place we've been to twice in NYC with the horn logo", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "How many seasons of Game of Thrones are there?",
+	  "choices": [
+		{"text": "8", "isCorrect": true},
+		{"text": "7 good ones", "isCorrect": true},
+		{"text": "3. Nothing after the Red Wedding counts", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Which word/phrase is not said 10 times per episode (at least) in the Bear?",
+	  "choices": [
+		{"text": "'Yes, chef'", "isCorrect": false},
+		{"text": "'Behind'", "isCorrect": false},
+		{"text": "'Good morning!'", "isCorrect": true}
+	  ]
+	},
+	{
+	  "question": "Which of these makes me happy?",
+	  "choices": [
+		{"text": "Stealing your Apple Watch and waiting for your reaction", "isCorrect": true},
+		{"text": "Celebrating you on your birthday!", "isCorrect": true},
+		{"text": "Eating a Ceaser Salad with lots of croutons and dressing and cheese (as of the last few months)", "isCorrect": true},
+		{"text": "Bhadra's and Rory's Instagram stories", "isCorrect": false}
+	  ]
+	},
+	{
+	  "question": "Which of these nicknames have I never used for you?",
+	  "choices": [
+		{"text": "Dementor", "isCorrect": false},
+		{"text": "my little ketchup bottle", "isCorrect": false},
+		{"text": "livvy", "isCorrect": false},
+		{"text": "Bolivia", "isCorrect": false},
+		{"text": "Skinny legend (sarcastically)", "isCorrect": false},
+		{"text": "Mushroom", "isCorrect": false},
+		{"text": "Carrot", "isCorrect": true}
 	  ]
 	}
 ]

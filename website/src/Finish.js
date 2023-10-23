@@ -1,6 +1,6 @@
 import React from "react";
 
-const Finish = () => {
+function Finish() {
   return (
     <div className="Finish">
       <p>Congratulations! You've completed all 25 questions. Here's a special message for you...</p>

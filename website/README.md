@@ -1,10 +1,12 @@
 TODOS
 
--add passwords after each set of 10 trivia questions
 -add more trivia questions (40 total)
 -add pictures of us on either side of the screen
 -add a third password that skips all the trivia questions
 -change site background to a blue-faded picture of us (maybe our first pic by Pine?)
+-make the password component fade out everything behind it
+-make favicon a picture of us
+-adjust colors to look pretty
 
 Things after she finishes the trivia:
 	-A list of all her funny quotes

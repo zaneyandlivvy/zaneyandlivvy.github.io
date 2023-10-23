@@ -7,11 +7,15 @@ import Typed from "react-typed";
 import PasswordComponent from "./PasswordComponent";
 
 const App = () => {
-    const [currentQuestion, setCurrentQuestion] = useState(0);
+    const TEST_MODE = false;
+    const passwordQuestions = [0, 10, 20, 30];
+    const livvyPasswords = ["benji", "iloveyou","seanbarker","10freakygirls"];
+    const otherPasswords = ["password", "password", "password", "password"];
+
+    const [currentQuestion, setCurrentQuestion] = useState(TEST_MODE ? questions.length-1: 0);
     const [showFinish, setShowFinish] = useState(false);
-    const [showOpeningSitePassword, setShowOpeningSitePassword] =
-        useState(true);
-    const [doneTyping, setDoneTyping] = useState(false);
+    const [showPassword, setShowPassword] = useState(!TEST_MODE);
+    const [doneTyping, setDoneTyping] = useState(TEST_MODE);
     const [instructions, setInstructions] = useState(
         "Hello user. To confirm that you are Olivia Kathleen Wirsching, " +
         "please answer these 25 security questions. You must also kiss " +
@@ -25,6 +29,10 @@ const App = () => {
     "please answer these 25 security questions.";
 
     const handleAnswerClick = (isCorrect) => {
+        if (passwordQuestions.includes(currentQuestion + 1)) {
+            setShowPassword(true);
+        }
+
         if (isCorrect) {
             if (currentQuestion < questions.length - 1) {
                 setCurrentQuestion(currentQuestion + 1);
@@ -37,26 +45,26 @@ const App = () => {
     };
 
     const handlePasswordSubmit = () => {
-        setShowOpeningSitePassword(false);
+        setShowPassword(false);
     };
 
     const handleSecondaryPasswordSubmit = () => {
         setInstructions(anyoneButLivvyString);
-        setShowOpeningSitePassword(false);
+        setShowPassword(false);
     };
 
     return (
         <div className="App">
             <h1 className="site-title">The Adventures of Livvy and Zaney</h1>
-            {showOpeningSitePassword && (
+            {(showPassword && passwordQuestions.includes(currentQuestion)) && (
                 <PasswordComponent
                     handlePasswordSubmit={handlePasswordSubmit}
-                    correctPassword={"hi"}
+                    correctPassword={livvyPasswords[passwordQuestions.indexOf(currentQuestion)]}
                     otherPasswordSubmit={handleSecondaryPasswordSubmit}
-                    otherCorrectPassword={"hi1"}
+                    otherCorrectPassword={otherPasswords[passwordQuestions.indexOf(currentQuestion)]}
                 />
             )}
-            {!showOpeningSitePassword && (
+            {!showPassword && (
                 <>
                     {!currentQuestion &&  (
                         <Typed
@@ -75,7 +83,7 @@ const App = () => {
                         />
                     )}
                     {showFinish ? (
-                        <Finish />
+                        <Finish questionLength={questions.length}/>
                     ) : (
                         <>
                             {doneTyping && (

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Question = ({ questionNumber, question, onAnswerClick }) => {
+function Question ({ questionNumber, question, onAnswerClick }) {
     
 	let sortedChoices = [...question.choices];
 	sortedChoices.sort((a, b) => a.text.localeCompare(b.text));

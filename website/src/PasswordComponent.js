@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const PasswordComponent = ({ handlePasswordSubmit, correctPassword, otherPasswordSubmit, otherCorrectPassword }) => {
+function PasswordComponent({ handlePasswordSubmit, correctPassword, otherPasswordSubmit, otherCorrectPassword }) {
     const [password, setPassword] = useState("");
 
     const handleSubmit = () => {
