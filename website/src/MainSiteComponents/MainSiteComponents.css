@@ -1,0 +1,51 @@
+.section-title {
+	font-size: 24px;
+	color: #3498db; /* Blue color */
+	text-align: center;
+	margin: 20px 0;
+  }
+  
+  .quote-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .quote-item {
+	background-color: #f0f0f0; /* Light gray background */
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+  }
+  
+  .quote-text {
+	font-size: 18px;
+	color: #333; /* Black text color */
+	margin-bottom: 10px;
+  }
+  
+  .quote-date {
+	font-size: 14px;
+	color: #777; /* Gray text color */
+  }
+
+.horizontal-nav {
+	display: flex;
+	justify-content: center;
+}
+  
+.horizontal-nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+  
+.horizontal-nav li {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.horizontal-nav li.active {
+	font-weight: bold;
+}
+  

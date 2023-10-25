@@ -3,9 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-image: url('./Photos/background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -39,10 +43,6 @@ li {
 
 li:hover {
   background-color: #0056b3; /* Darker blue color on hover */
-}
-
-.Finish {
-  /* Add styles for your finish paragraph here */
 }
 
 .opening-message {

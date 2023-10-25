@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Question from "./Question";
-import Finish from "./Finish";
+import MainSite from "./MainSiteComponents/MainSite";
 import questions from "./questions.json";
 import "./App.css";
 import Typed from "react-typed";
@@ -11,9 +11,10 @@ const App = () => {
     const passwordQuestions = [0, 10, 20, 30];
     const livvyPasswords = ["benji", "iloveyou","seanbarker","10freakygirls"];
     const otherPasswords = ["password", "password", "password", "password"];
+    const skipToSitePassword = "ladd208";
 
     const [currentQuestion, setCurrentQuestion] = useState(TEST_MODE ? questions.length-1: 0);
-    const [showFinish, setShowFinish] = useState(false);
+    const [showFinish, setShowFinish] = useState(TEST_MODE);
     const [showPassword, setShowPassword] = useState(!TEST_MODE);
     const [doneTyping, setDoneTyping] = useState(TEST_MODE);
     const [instructions, setInstructions] = useState(
@@ -53,6 +54,11 @@ const App = () => {
         setShowPassword(false);
     };
 
+    const handleSkipToSitePasswordSubmit = () => {
+        setShowFinish(true);
+        setShowPassword(false);
+    }
+
     return (
         <div className="App">
             <h1 className="site-title">The Adventures of Livvy and Zaney</h1>
@@ -62,11 +68,14 @@ const App = () => {
                     correctPassword={livvyPasswords[passwordQuestions.indexOf(currentQuestion)]}
                     otherPasswordSubmit={handleSecondaryPasswordSubmit}
                     otherCorrectPassword={otherPasswords[passwordQuestions.indexOf(currentQuestion)]}
+                    skipToSitePassword={skipToSitePassword}
+                    skipToSitePasswordSubmit={handleSkipToSitePasswordSubmit}
+
                 />
             )}
             {!showPassword && (
                 <>
-                    {!currentQuestion &&  (
+                    {(!currentQuestion && !showFinish) &&  (
                         <Typed
                             strings={[
                                 instructions,
@@ -83,7 +92,7 @@ const App = () => {
                         />
                     )}
                     {showFinish ? (
-                        <Finish questionLength={questions.length}/>
+                        <MainSite questionLength={questions.length}/>
                     ) : (
                         <>
                             {doneTyping && (
