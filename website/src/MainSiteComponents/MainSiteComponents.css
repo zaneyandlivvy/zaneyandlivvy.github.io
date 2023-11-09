@@ -1,6 +1,6 @@
 .section-title {
 	font-size: 24px;
-	color: #3498db; /* Blue color */
+	color: white; /* Blue color */
 	text-align: center;
 	margin: 20px 0;
   }
@@ -8,25 +8,30 @@
   .quote-list {
 	list-style-type: none;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
   }
   
   .quote-item {
 	background-color: #f0f0f0; /* Light gray background */
-	border: 1px solid #ccc;
-	border-radius: 5px;
+	border-radius: 15px;
 	padding: 10px;
-	margin: 10px 0;
+	margin: 5px 0;
+	width: 600px;
   }
   
   .quote-text {
 	font-size: 18px;
 	color: #333; /* Black text color */
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
   }
   
   .quote-date {
 	font-size: 14px;
 	color: #777; /* Gray text color */
+	text-align: right;
   }
 
 .horizontal-nav {
@@ -48,4 +53,15 @@
 .horizontal-nav li.active {
 	font-weight: bold;
 }
+
+.section-message  {
+	background: #007bff;
+	text-align: justify;
+	width: 800px;
+	font-size: 17px;
+	line-height: 1.5;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+  }
   

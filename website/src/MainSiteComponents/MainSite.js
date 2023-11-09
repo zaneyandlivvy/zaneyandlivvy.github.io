@@ -15,7 +15,7 @@ const MainSite = () => {
   const tabs = [
     { label: "Livvy's Best Quotes", id: "LivvysBestQuotes" },
     { label: "Player Bios", id: "PlayerBios" },
-    { label: "All Time Top Photos", id: "AllTimeTopPhotos" },
+    { label: "All-Time Top Photos", id: "AllTimeTopPhotos" },
     { label: "Coming Soon", id: "ComingSoon" },
   ];
 

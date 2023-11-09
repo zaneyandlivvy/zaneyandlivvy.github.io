@@ -14,7 +14,7 @@
 
 h1 {
   font-size: 2rem;
-  color: #0f6197; /* Blue color */
+  color: white; /* Blue color */
 }
 
 .Question {
@@ -42,7 +42,7 @@ li {
 }
 
 li:hover {
-  background-color: #0056b3; /* Darker blue color on hover */
+  background-color: #71a3d9; /* Darker blue color on hover */
 }
 
 .opening-message {
@@ -50,7 +50,7 @@ li:hover {
   width: 800px;
   font-size: 17px;
   line-height: 1.5;
-  color: #0f6197;
+  color: white;
 }
 
 .site-title {

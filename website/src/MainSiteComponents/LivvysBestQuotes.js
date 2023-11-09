@@ -9,8 +9,8 @@ function LivvysBestQuotes () {
       <ul className="quote-list">
         {quotes.map((quote, index) => (
           <li key={index} className="quote-item">
-            <div className="quote-text">{quote.text}</div>
             <div className="quote-date">{quote.date}</div>
+            <div className="quote-text">"{quote.text}"</div>
           </li>
         ))}
       </ul>
