@@ -5,11 +5,28 @@
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  /* background-color: lightblue; */
+}
+
+.blurred-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blurred-background:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('./Photos/background-image.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: blur(5px); /* Adjust the blur level */
+  z-index: -1;
 }
 
 h1 {

@@ -23,7 +23,7 @@ function PasswordComponent({
 
   return (
     <div>
-        <div className="blur"></div>
+      <div className="blur"></div>
       <div className="passwordComponent" >
         <h2 style={{ marginBottom: "20px" }}>Enter the Password</h2>
         <input

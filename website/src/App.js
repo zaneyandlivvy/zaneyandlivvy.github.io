@@ -60,52 +60,53 @@ const App = () => {
     }
 
     return (
-        <div className="App">
-            <h1 className="site-title">The Adventures of Livvy and Zaney</h1>
-            {(showPassword && passwordQuestions.includes(currentQuestion)) && (
-                <PasswordComponent
-                    handlePasswordSubmit={handlePasswordSubmit}
-                    correctPassword={livvyPasswords[passwordQuestions.indexOf(currentQuestion)]}
-                    otherPasswordSubmit={handleSecondaryPasswordSubmit}
-                    otherCorrectPassword={otherPasswords[passwordQuestions.indexOf(currentQuestion)]}
-                    skipToSitePassword={skipToSitePassword}
-                    skipToSitePasswordSubmit={handleSkipToSitePasswordSubmit}
-
-                />
-            )}
-            {!showPassword && (
-                <>
-                    {(!currentQuestion && !showFinish) &&  (
-                        <Typed
-                            strings={[
-                                instructions,
-                            ]}
-                            element="h1"
-                            className="opening-message"
-                            typeSpeed={20}
-                            onComplete={(instance) => {
-                                setDoneTyping(true);
-                                setTimeout(() => {
-                                    instance.cursor.remove();
-                                }, 1000);
-                            }}
-                        />
-                    )}
-                    {showFinish ? (
-                        <MainSite questionLength={questions.length}/>
-                    ) : (
-                        <>
-                            {doneTyping && (
-                                <Question
-                                    questionNumber={currentQuestion}
-                                    question={questions[currentQuestion]}
-                                    onAnswerClick={handleAnswerClick}
-                                />
-                            )}
-                        </>
-                    )}
-                </>
-            )}
+        <div className="blurred-background">
+            <div className="App">
+                <h1 className="site-title">The Adventures of Livvy and Zaney</h1>
+                {(showPassword && passwordQuestions.includes(currentQuestion)) && (
+                    <PasswordComponent
+                        handlePasswordSubmit={handlePasswordSubmit}
+                        correctPassword={livvyPasswords[passwordQuestions.indexOf(currentQuestion)]}
+                        otherPasswordSubmit={handleSecondaryPasswordSubmit}
+                        otherCorrectPassword={otherPasswords[passwordQuestions.indexOf(currentQuestion)]}
+                        skipToSitePassword={skipToSitePassword}
+                        skipToSitePasswordSubmit={handleSkipToSitePasswordSubmit}
+                    />
+                )}
+                {!showPassword && (
+                    <>
+                        {(!currentQuestion && !showFinish) &&  (
+                            <Typed
+                                strings={[
+                                    instructions,
+                                ]}
+                                element="h1"
+                                className="opening-message"
+                                typeSpeed={20}
+                                onComplete={(instance) => {
+                                    setDoneTyping(true);
+                                    setTimeout(() => {
+                                        instance.cursor.remove();
+                                    }, 1000);
+                                }}
+                            />
+                        )}
+                        {showFinish ? (
+                            <MainSite questionLength={questions.length}/>
+                        ) : (
+                            <>
+                                {doneTyping && (
+                                    <Question
+                                        questionNumber={currentQuestion}
+                                        question={questions[currentQuestion]}
+                                        onAnswerClick={handleAnswerClick}
+                                    />
+                                )}
+                            </>
+                        )}
+                    </>
+                )}
+            </div>
         </div>
     );
 };

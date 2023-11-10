@@ -64,4 +64,31 @@
 	padding: 20px;
 	border-radius: 10px;
   }
+
+  .top-photos {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: center;
+	margin-block: 50px;
+  }
   
+  .top-photo {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	justify-content: space-around;
+  }
+
+  .top-photo-text {
+	background: #007bff;
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+	max-width: 400px;
+	line-height: 1.4;
+  }
+
+  .text-on-left {
+	flex-direction: row-reverse;
+  }
