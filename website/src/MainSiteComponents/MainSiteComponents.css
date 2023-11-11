@@ -11,10 +11,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 50px;
   }
   
   .quote-item {
-	background-color: #f0f0f0; /* Light gray background */
+	background-color: #007bff; /* Light gray background */
 	border-radius: 15px;
 	padding: 10px;
 	margin: 5px 0;
@@ -23,14 +24,14 @@
   
   .quote-text {
 	font-size: 18px;
-	color: #333; /* Black text color */
+	color: white; /* Black text color */
 	margin-top: 10px;
 	margin-bottom: 20px;
   }
   
   .quote-date {
 	font-size: 14px;
-	color: #777; /* Gray text color */
+	color: white; /* Gray text color */
 	text-align: right;
   }
 
@@ -91,4 +92,27 @@
 
   .text-on-left {
 	flex-direction: row-reverse;
+  }
+
+  .player-bios {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-bottom: 50px;
+  }
+
+  .player-bio {
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+  }
+
+  .player-info {
+	background-color: #007bff;
+	padding: 20px;
+	padding-top: 10px;
+	border-radius: 20px;
+	color: white;
+	text-align: left;
+	width: 500px;
   }

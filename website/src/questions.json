@@ -213,6 +213,89 @@
 		{"text": "Mushroom", "isCorrect": false},
 		{"text": "Carrot", "isCorrect": true}
 	  ]
+	},
+	{
+		"question": "Who Lauren not hooked up with?",
+		"choices": [
+		  {"text": "Vlad", "isCorrect": false},
+		  {"text": "Tucker", "isCorrect": false},
+		  {"text": "Aiden Feeley", "isCorrect": true},
+		  {"text": "Jake Horigan", "isCorrect": false}
+		]
+	},
+	{
+		"question": "Who did you (wisely) tell me to unfollow in Instagram?",
+		"choices": [
+		  {"text": "Bhadra", "isCorrect": true},
+		  {"text": "The Trumpster", "isCorrect": false},
+		  {"text": "Rory (big fan of BCR)", "isCorrect": false},
+		  {"text": "The Castagnos", "isCorrect": false}
+		]
+	},
+	{
+		"question": "Which one of these men is not a friend of my dad's?",
+		"choices": [
+		  {"text": "Andy", "isCorrect": false},
+		  {"text": "Mike", "isCorrect": false},
+		  {"text": "Dan", "isCorrect": true},
+		  {"text": "Steve", "isCorrect": false}
+		]
+	},
+	{
+		"question": "Who let the dogs out?",
+		"choices": [
+		  {"text": "Mexican police during a 1968 student revolt", "isCorrect": true},
+		  {"text": "Who, who who who", "isCorrect": true},
+		  {"text": "Baba (crocs)", "isCorrect": true},
+		  {"text": "Your dad, every day at 6am and lunch and dinner", "isCorrect": true}
+		]
+	},
+	{
+		"question": "Best couple?",
+		"choices": [
+		  {"text": "Swift + Kelce", "isCorrect": false},
+		  {"text": "Biden + Harris", "isCorrect": false},
+		  {"text": "Duhhhhhh it's OZ", "isCorrect": true},
+		  {"text": "Jared + Abby", "isCorrect": false},
+		  {"text": "Dave + Francine", "isCorrect": false}
+		]
+	},
+	{
+		"question": "Which of these 2F nicknames is least used?",
+		"choices": [
+		  {"text": "Bookbin", "isCorrect": false},
+		  {"text": "Juan Sober", "isCorrect": false},
+		  {"text": "The Grundster", "isCorrect": true},
+		  {"text": "Latits", "isCorrect": false},
+		  {"text": "Babito", "isCorrect": false}
+		]
+	},
+	{
+		"question": "How many miles did Cairo run in New Zealand?",
+		"choices": [
+		  {"text": "It's New Zealand, they use km", "isCorrect": true},
+		  {"text": "35", "isCorrect": true},
+		  {"text": "Too many", "isCorrect": true},
+		  {"text": "At least 2", "isCorrect": true}
+		]
+	},
+	{
+		"question": "Which of these was a topping on the pizza we ate in Capri?",
+		"choices": [
+		  {"text": "Corn", "isCorrect": true},
+		  {"text": "Bacon", "isCorrect": false},
+		  {"text": "Basil", "isCorrect": false},
+		  {"text": "Pepper flakes", "isCorrect": false}
+		]
+	},
+	{
+		"question": "What happened to Zane in Sorrento?",
+		"choices": [
+		  {"text": "Lost his wallet", "isCorrect": false},
+		  {"text": "Lost his virginity", "isCorrect": false},
+		  {"text": "Discovered his lord and savior Jesus Christ", "isCorrect": false},
+		  {"text": "Pants crotch ripped", "isCorrect": true}
+		]
 	}
 ]
   
