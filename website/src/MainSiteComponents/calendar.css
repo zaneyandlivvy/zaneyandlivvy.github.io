@@ -1,0 +1,49 @@
+/* styles.css */
+
+.react-calendar button:disabled {
+	background-color: #000 !important; /* Black background for disabled buttons */
+	/* color: #fff; White text for disabled buttons */
+	opacity: 0.8; /* Adjust opacity for disabled buttons */
+	cursor: not-allowed; /* Change cursor for disabled buttons */
+}
+
+/* .react-calendar__tile--active button {
+	background-color: red;
+} */
+
+/* Apply blue theme */
+.react-calendar {
+	font-family: 'Roboto', sans-serif; /* Change the font */
+	background-color: #0056b3; /* Darker blue background */
+	color: #fff;
+  }
+
+  .react-calendar__tile {
+	color: white;
+	transition: background-color 0.3s ease;
+  }
+
+  .react-calendar__tile:hover {
+	background-color: #003f7f !important;
+  }
+
+  .react-calendar__tile--now {
+	background: #0056b3; /* Use the same color as regular tiles */
+  }
+  
+  /* Style the calendar navigation buttons */
+  .react-calendar__navigation button {
+	background-color: #0056b3; /* Dark blue for navigation buttons */
+	color: #fff; /* color: #fff; White text for navigation buttons */
+	transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  /* Hover effect on navigation buttons */
+  .react-calendar__navigation button:hover {
+	background-color: #003f7f !important; /* Slightly darker blue on hover */
+  }
+  
+  /* Pressed effect on navigation buttons */
+  .react-calendar__navigation button:active {
+	background-color: #00264d; /* Even darker blue when pressed */
+  }
