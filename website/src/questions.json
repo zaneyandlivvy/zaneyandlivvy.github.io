@@ -8,7 +8,7 @@
 	  ]
 	},
 	{
-	  "question": "When was the first time you wanted to sleep over in my room?",
+	  "question": "When did we first meet?",
 	  "choices": [
 		{"text": "Halloween 2020", "isCorrect": true},
 		{"text": "Lobster Bake 2021", "isCorrect": false},
@@ -28,7 +28,7 @@
 	  "choices": [
 		{"text": "Hell no", "isCorrect": true},
 		{"text": "We haven't slept since", "isCorrect": false},
-		{"text": "Don't know, I was making out with you the entire time.", "isCorrect": false}
+		{"text": "Don't know, never seen it.", "isCorrect": false}
 	  ]
 	},
 	{

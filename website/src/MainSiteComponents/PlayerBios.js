@@ -8,19 +8,19 @@ function PlayerBios() {
                 <PlayerBio
                     photo="livvy-bio.jpeg"
                     name="Olivia K. Wirsching"
-                    aliases="Livvy, Bean, Mushroom, My Little Ketchup Bottle, Oleeeevia, OKW"
+                    aliases="Livvy, Bean, Oleeeevia, OKW"
                     birthday="May the Fourth be with you, 2002"
                     height="The perfect height"
-                    weight="Skinny legend"
+                    weight="The perfect weight"
                     strengths={
-                        "Wicked intelligence, humor, short game, sex appeal, drawing (don't listen to her she's so good)"
+                        "Wicked intelligence, humor, short game, drawing (don't listen to her she's so good)"
                     }
                     weaknesses={
                         "Temperatures that aren't 72 degrees, stomach aches, dehydration"
                     }
-                    hair="Absolutely gorgeous, and so soft"
-                    eyes="My brown-eyed girl"
-                    features={"Hourglass figure, adorable winter hats"}
+                    hair="Beautiful and soft"
+                    eyes="Brown (thanks Van Morrison)"
+                    features={"Adorable winter hats, at least three hair ties on her wrist at all times"}
                 />
             </div>
 
@@ -33,16 +33,16 @@ function PlayerBios() {
                         "A federal holiday (we don't need to name the specific one), 2002"
                     }
                     height={"At least like 6' 2\", maybe more"}
-                    weight="Ripped. That's all you need to know."
+                    weight="Ripped."
                     strengths={
-                        "'Making things work', judging courses (spidey senses), can detect vegetables from miles away"
+                        "Databases, finding easier classes (spidey senses), detecting vegetables from miles away"
                     }
                     weaknesses={
-                        "Anything artsy, socializing, being happy when his girlfriend leaves"
+                        "Anything artsy, socializing with people he doesn't like"
                     }
                     hair="Thick (he's got the multi-hair-in-one-hole thing going on), fun to touch when short"
                     eyes="Gorgeous bright blue"
-                    features={"Arms like tree trunks, rock hard abs"}
+                    features={"Strangely short tongue, size 12.5 feet"}
                 />
             </div>
         </div>
