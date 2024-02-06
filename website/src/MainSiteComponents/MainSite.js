@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import LivvysBestQuotes from "./LivvysBestQuotes";
-import ComingSoon from "./ComingSoon";
+import OurYearTogether from "./OurYearTogether";
 import PlayerBios from "./PlayerBios";
 import AllTimeTopPhotos from "./AllTimeTopPhotos";
 import './MainSiteComponents.css';
@@ -16,14 +16,14 @@ const MainSite = () => {
     { label: "Livvy's Best Quotes", id: "LivvysBestQuotes" },
     { label: "Player Bios", id: "PlayerBios" },
     { label: "All-Time Top Photos", id: "AllTimeTopPhotos" },
-    { label: "Coming Soon", id: "ComingSoon" },
+    { label: "Our Year Together!", id: "OurYearTogether" },
   ];
 
   const tabComponents = {
     LivvysBestQuotes: <LivvysBestQuotes />,
     PlayerBios: <PlayerBios />,
     AllTimeTopPhotos: <AllTimeTopPhotos />,
-    ComingSoon: <ComingSoon />
+    OurYearTogether: <OurYearTogether />
   };
 
   return (

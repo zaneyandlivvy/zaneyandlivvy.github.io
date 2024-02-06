@@ -160,3 +160,7 @@
 	font-size: 18px;
 	cursor: pointer;
   }
+
+  .daily-update-button:hover {
+	color: #71a3d9;
+  }

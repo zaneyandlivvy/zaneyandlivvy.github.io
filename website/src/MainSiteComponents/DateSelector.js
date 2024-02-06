@@ -26,6 +26,7 @@ const DateSelector = ({ selectedDate, onDateChange }) => {
         value={date}
         minDate={new Date(2023, 1, 14)} // February 14, 2023
         maxDate={new Date(2024, 1, 13)} // February 13, 2024
+        activeStartDate={new Date(2023, 1, 14)} // February 14, 2023
       />
     </div>
   );

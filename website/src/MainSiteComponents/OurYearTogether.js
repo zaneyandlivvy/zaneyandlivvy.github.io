@@ -3,7 +3,7 @@ import "react-calendar/dist/Calendar.css";
 import DateSelector from "./DateSelector";
 import dailyUpdates from "../formatted_updates.json";
 
-const ComingSoon = () => {
+const OurYearTogether = () => {
     const SHOW_COMING_SOON = true;
     const [selectedDate, setSelectedDate] = useState(new Date(2023, 1, 14));
 
@@ -51,7 +51,7 @@ const ComingSoon = () => {
 
     const dontShowComingSoon = (
       <div>
-        <h2>Coming Soon...</h2>
+        <h2>Our Year Together!</h2>
       </div>
     );
 
@@ -83,4 +83,4 @@ const ComingSoon = () => {
     );
 };
 
-export default ComingSoon;
+export default OurYearTogether;
