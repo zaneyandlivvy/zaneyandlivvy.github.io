@@ -42,7 +42,7 @@ function PlayerBios() {
                     }
                     hair="Thick (he's got the multi-hair-in-one-hole thing going on), fun to touch when short"
                     eyes="Gorgeous bright blue"
-                    features={"Arms like tree trunks, rock hard abs"}
+                    features={"Arms like tree trunks, rock hard abs, Strangely short tongue, size 12.5 feet"}
                 />
             </div>
         </div>

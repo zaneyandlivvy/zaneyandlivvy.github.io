@@ -4,7 +4,7 @@ import DateSelector from "./DateSelector";
 import dailyUpdates from "../formatted_updates.json";
 
 const ComingSoon = () => {
-    const SHOW_COMING_SOON = false;
+    const SHOW_COMING_SOON = true;
     const [selectedDate, setSelectedDate] = useState(new Date(2023, 1, 14));
 
     const handleDateChange = (date) => {

@@ -11,7 +11,7 @@ const App = () => {
     const passwordQuestions = [0, 10, 20, 30];
     const livvyPasswords = ["benji", "iloveyou","seanbarker","10freakygirls"];
     const otherPasswords = ["password", "password", "password", "password"];
-    const skipToSitePassword = "ladd208";
+    const skipToSitePassword = "f3b4e2c1a0d9e8b7a6c5d4e3f2g1h0i9j8k7l6m5n4o3p";
 
     const [currentQuestion, setCurrentQuestion] = useState(TEST_MODE ? questions.length-1: 0);
     const [showFinish, setShowFinish] = useState(TEST_MODE);
